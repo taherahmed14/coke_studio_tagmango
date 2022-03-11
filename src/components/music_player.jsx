@@ -14,7 +14,7 @@ export const MusicPlayer = () => {
 
     useEffect(() => {
         setCurrentSong(allSongs[count]);
-    }, [count]);
+    }, [count, allSongs]);
 
     const getSongs = () => {
         fetch("https://s3-ap-southeast-1.amazonaws.com/he-public-data/studiod9c0baf.json")
