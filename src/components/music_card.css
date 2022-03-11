@@ -1,0 +1,63 @@
+.musicCard {
+    margin: auto;
+    margin-top: 5vw;
+    width: 60vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cover {
+    width: 60vw;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.song {
+    font-size: 2vw;
+}
+
+.artist {
+    font-size: 1vw;
+}
+
+.audio {
+    margin-bottom: 2vw;
+    width: 50vw;
+    height: 5vw;
+}
+
+.mainCard {
+    display: flex;
+}
+
+.prevBtn, .nextBtn {
+    height: 10vw;
+    position: absolute;
+    top: 25vw;
+    left: 15vw;
+    cursor: pointer;
+}
+
+.nextBtn {
+    position: absolute;
+    top: 25vw;
+    left: 82.5vw;
+}
+
+.prevBtn:hover {
+    padding-left: 10px;
+}
+
+.nextBtn:hover {
+    padding-left: 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+}
+
+.logo > img {
+    width: 3vw;
+    /* height: 2vw; */
+}
